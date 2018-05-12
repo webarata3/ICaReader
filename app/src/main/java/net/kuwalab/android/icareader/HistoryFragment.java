@@ -52,11 +52,9 @@ public class HistoryFragment extends Fragment {
         List<Map<String, String>> list = icaHistoryListToMap(icaHistoryList);
         String nowRestMoney = icaHistoryList.get(0).getDispRestMoney();
 
-        TextView messageText = (TextView) getActivity().findViewById(
-                R.id.messageText);
+        TextView messageText = getActivity().findViewById(R.id.messageText);
         messageText.setText(R.string.ica_rest);
-        TextView nowRestMoneyText = (TextView) getActivity().findViewById(
-                R.id.nowRestMoneyText);
+        TextView nowRestMoneyText = getActivity().findViewById(R.id.nowRestMoneyText);
         nowRestMoneyText.setText(nowRestMoney);
 
         LinearLayout firstStepLayout = (LinearLayout) getActivity()

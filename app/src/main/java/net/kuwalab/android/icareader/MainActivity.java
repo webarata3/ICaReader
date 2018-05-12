@@ -20,7 +20,6 @@ import android.webkit.WebView;
  */
 public class MainActivity extends AppCompatActivity {
     private HistoryFragment historyFragment;
-    private static final int LISENCE_DIALOG_ID = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
